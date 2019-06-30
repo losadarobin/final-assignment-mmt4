@@ -1,0 +1,256 @@
+@media screen and (max-width: 1180px) {
+    .switch-tekst {
+        padding-left: 77%;
+    }
+    .video-js {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    h1 {
+        font-size: 2.5em;
+        padding-top: 120px;
+    }
+    .tekst-kader {
+        width: 60%;
+    }
+    .kader-inleiding p {
+        font-size: 0.8em;
+        margin-top: 30px;
+    }
+    .kader-inleiding {
+        width: 90%;
+    }
+    .switch-tekst {
+        padding-left: 72%;
+    }
+    .contact {
+        margin-top: 50px;
+    }
+    h4 {
+        font-size: 2.5em;
+        padding-bottom: 30px;
+    }
+    .video-js {
+        height: 360px;
+    }
+    h3 {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .icon-download-tekst {
+        display: none;
+    }
+    .download-icon {
+        display: block;
+    }
+    .kader-accordion {
+        width: 80%;
+    }
+    .button-workshop {
+        margin-left: 10px;
+    }
+    .video-js {
+        height: 320px;
+    }
+    /* button */
+    .buttons-video {
+        width: 50px;
+        height: 50px;
+    }
+    .button-play {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media screen and (max-width:858px) {
+    .acco-dicht, .acco-open {
+        width: 4%;
+    }
+    .button-download {
+        font-size: 0.7em;
+        padding: 0px 15px 10px 15px;
+    }
+    .button-download img {
+        width: 20%;
+    }
+    .acco-button {
+        font-size: 0.7em;
+        padding: 5px;
+    }
+    .video-js {
+        height: 290px;
+    }
+    .acco-vink {
+        padding: 2px 8px 2px 8px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:786px) {
+    ul {
+        font-size: 0.8em;
+    }
+    /* button video */
+    .buttons-video {
+        width: 30px;
+        height: 30px;
+    }
+    .button-play {
+        width: 45px;
+        height: 45px;
+    }
+    .switch-tekst {
+        font-size: 0.8em;
+        padding-top: 5%;
+        padding-left: 70%;
+    }
+    .switch-logo {
+        padding-top: 4.5%;
+        position: absolute;
+    }
+    .button-workshop-1 {
+        display: none;
+    }
+    .button-workshop {
+        display: block;
+    }
+    .button-intro-1 {
+        display: none;
+    }
+    .button-intro {
+        display: inline-block;
+    }
+    .acco-vink {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .video-js {
+        height: 230px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .switch-tekst {
+        padding-left: 60%;
+    }
+    .button-intro {
+        margin-top: 0px;
+    }
+    h1 {
+        font-size: 2em;
+        padding-top: 100px;
+    }
+    .kader-inleiding p {
+        font-size: 0.8em;
+        margin-top: 20px;
+    }
+    h4, h6 {
+        font-size: 1.6em;
+        width: 370px;
+    }
+    h2 {
+        font-size: 0.7em;
+    }
+    .contact {
+        margin-top: 20px;
+    }
+    .tekst-uitdaging {
+        width: 300px;
+        text-align: center;
+    }
+    .knop-uitdaging {
+        font-size: 0.8em;
+        width: 150px;
+    }
+    .switch-logo {
+        padding-left: 85%;
+    }
+}
+
+@media screen and (max-width:570px) {
+    /* button video */
+    .button-rewind {
+        left: 28%;
+    }
+    .button-vinkje {
+        left: 65%;
+    }
+    .over-ons {
+        padding-left: 15%;
+        padding-right: 0%;
+    }
+    .contact-nav, .les {
+        padding-left: 5%;
+        padding-right: 0%;
+    }
+    li {
+        float: left;
+    }
+    .logo-nav {
+        left: 5%;
+        top: 25px;
+    }
+    .logo-blauw {
+        width: 30px;
+        height: 30px;
+    }
+    .logo-wit {
+        width: 30px;
+        height: 30px;
+    }
+    .video-js {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .kader-accordion {
+        width: 100%;
+    }
+    h2 {
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+    h3 {
+        font-size: 0.6em;
+    }
+    .contact {
+        font-size: 0.9em;
+        width: 350px;
+    }
+    #contact1 img, #contact3 img, #contact2 img, #contact4 img {
+        width: 80px;
+        height: 80px;
+    }
+    .video-js {
+        height: 192px;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .button-rewind {
+        left: 20%;
+    }
+    .button-vinkje {
+        left: 70%;
+    }
+    .button-play {
+        width: 40px;
+        height: 40px;
+        top: 43%;
+        left: 43%;
+    }
+    .video-js {
+        height: 180px;
+    }
+    .switch-tekst {
+        padding-left: 55%;
+    }
+}

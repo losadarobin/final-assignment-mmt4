@@ -1,0 +1,628 @@
+body {
+    background-color: white;
+}
+
+body.dark{
+    background-color: black;
+}
+
+header {
+    background: linear-gradient(0deg, rgb(0, 118, 255, 0.8), rgb(29, 0, 255, 0.8)), url(../img/header@2x.jpg);
+    background-size: cover;
+    z-index: -1;
+    position: inherit;
+    width: 100%;
+}
+
+#popup{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+    background-color: white;
+    opacity: 0.8; 
+}
+
+#popup.dark{
+    background-color: black;
+}
+
+#popup-blok{
+    background-color: rgb(29, 0, 255);
+    width: 200px;
+    height: 200px;
+    z-index: 11;
+    top: 35%;
+    left: 40%;
+    position: fixed;
+    display: none;
+ 
+}
+
+#popup-blok p{
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+#close{
+    width: 25px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+/* 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+nav {
+    background-color: white;
+    height: 13%;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    top: 0;
+    border-bottom: 1px solid rgb(29, 0, 255);
+}
+
+nav.dark{
+    background-color: black;
+}
+
+li {
+    float: right;
+    padding-right: 10%;
+}
+
+ul {
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    list-style-type: none;
+    padding: 40px 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(29, 0, 255);
+}
+
+
+.logo-nav {
+    position: fixed;
+    left: 15%;
+    top: 25px;
+}
+#logo-blauw{
+    width: 50px;
+    height: 50px;
+    display:block;
+}
+
+#logo-wit{
+    display:none;
+    width: 50px;
+    height: 50px;
+}
+
+#logo-blauw.dark{
+    display:none;
+}
+
+#logo-wit.dark{
+    display:block;
+}
+
+/*  EINDE NAVIGATIE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.tekst-kader {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding-bottom: 150px;
+}
+
+h1 {
+    z-index: 3;
+    font-family: 'Playfair Display';
+    font-size: 3em;
+    padding-top: 150px;
+    color: white;
+}
+
+.kader-inleiding {
+    width: 80%;
+}
+
+.kader-inleiding p {
+    z-index: 3;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    margin-top: 40px;
+    color: white;
+}
+
+/*  EINDE TITEL TEKST
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* EINDE HEADER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.kader-main {
+    background-color: white;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: -200px;
+    z-index: 4;
+    position: inherit;
+    padding-bottom: 50px;
+}
+
+.kader-main.dark{
+    background-color: black;
+}
+
+.kader-accordion {
+    width: 70%;
+    margin-top: 50px;
+    margin: 0 auto;
+}
+
+.kader-video{
+    position: relative;
+}
+
+h2 {
+    color: rgb(29, 0, 255);
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.buttons-video{
+    background-color: white;
+    position: absolute;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+}
+
+.button-rewind{
+    top: 45%;
+    left: 32%;
+}
+
+.rewind{
+    width: 100%;
+    height: 80%;
+}
+
+.button-play{
+    width: 80px;
+    height: 80px;
+    top: 43%;
+    left: 45%;
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.button-play.active .play{
+    background-image: url(../img/pause@2x.png);
+}
+
+.play{
+    background-image: url(../img/play@2x.png);
+    width: 100%;
+    height: 60%;
+    background-size: 100%;
+    background-position: center;
+}
+
+.button-vinkje{
+    background-color: rgb(187, 255, 178);
+    top: 45%;
+    left: 60%;
+}
+
+.but-vinkje{
+    width: 100%;
+    height: 80%;
+}
+
+/*   ACCORDION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+h3 {
+    color: rgb(29, 0, 255, 85%);
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+video{
+    background-color: white;
+}
+
+video.dark{
+    background-color: black;
+}
+
+
+.video-js {
+    margin: 0 auto;
+    width: 100%;
+    height: 480px;
+    background-color: white;
+    display: block;
+}
+
+.video-js.dark{
+    background-color: black;
+}
+
+.ui-accordion-header{
+    border: 1px solid rgb(235, 235, 235);
+    padding: 15px 15px;
+}
+
+h3{
+    color: rgb(75, 75, 75);
+}
+
+.ui-accordion-header-active{
+    color: rgb(29, 0, 255);
+    border: 1px solid rgb(29, 0, 255);
+}
+
+h3.dark{
+    color: white;
+}
+
+.ui-accordion-header-active.dark{
+    color: rgb(29, 0, 255);
+}
+
+
+/*  ICON ACCORDION */
+
+
+.ui-accordion-header .acco-open{
+    display: none;
+}
+
+.ui-accordion-header-active .acco-open{
+    display: inline;
+}
+
+.ui-accordion-header .acco-dicht{
+    display: inline;
+}
+
+.ui-accordion-header .acco-dicht.dark{
+    display: none;
+}
+
+.ui-accordion-header-active .acco-dicht{
+    display: none;
+}
+
+.ui-accordion-header .acco-dicht-dark.dark{
+    display: inline;
+}
+
+.ui-accordion-header-active .acco-dicht-dark.dark{
+    display: none;
+}
+
+.ui-accordion-header .acco-dicht-dark{
+    display: none;
+}
+
+
+/*  EINDE ICON ACCORDION */
+
+
+.acco-button{
+    float: right;
+    font-size: 0.8em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0px;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    vertical-align:middle
+}
+
+.button-intro-1{
+    background-color: rgb(255, 175, 227);
+    color: rgb(204, 0, 133);
+    display: inline-block;
+}
+
+.button-intro{
+    background-color: rgb(255, 175, 227);
+    color: rgb(204, 0, 133);
+    padding: 0px 10px 0 10px;
+    display: none;
+}
+
+.button-workshop-1{
+    background-color: rgb(209, 231, 255);
+    color: rgb(29, 0, 255);
+}
+
+.button-workshop{
+    background-color: rgb(209, 231, 255);
+    color: rgb(29, 0, 255);
+}
+
+.button-workshop{
+    float: right;
+    font-size: 0.8em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0px;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: rgb(209, 231, 255);
+    color: rgb(29, 0, 255);
+    display: none;
+}
+
+.button-download-tekst{
+    text-align: center;
+    float: right;
+    font-size: 0.8em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: black;
+    padding: 5px 15px 10px 15px;
+    display:block;
+}
+
+.download-icon{
+    text-align: center;
+    float: right;
+    border-radius: 15px;
+    border: 0px;
+    color: white;
+    background-color: black;
+    padding: 3px 5px 3px 5px;
+    display:none;
+}
+
+.acco-vink{
+    margin-left: 20px;
+    background-color: rgb(187, 255, 178);
+    padding: 5px 10px 5px 10px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+.vink1,.vink2,.vink3,.vink4,.vink5{
+    display: none;
+}
+
+.kader-video .button-rewind{
+    display: none;
+}
+
+.kader-video:hover .button-rewind{
+    display: block;
+}
+
+.kader-video .button-play{
+    display: none;
+}
+
+.kader-video:hover .button-play{
+    display: block;
+}
+
+.kader-video .button-vinkje{
+    display: none;
+}
+
+.kader-video:hover .button-vinkje{
+    display: block;
+}
+
+/*  EINDE ACCORDION
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+/*  CONTACT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+h4 {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 3em;
+    color: rgb(29, 0, 255);
+    padding-bottom: 50px;
+}
+
+h4.dark, h5.dark, li a.dark, h2.dark{
+    color: white;
+}
+
+h5{
+    font-family: 'Montserrat';
+    font-size: 1em;
+    color: black;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-top: 10px;
+}
+
+.contact{
+    font-family: 'Montserrat';
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 400px;
+    float: left;
+    margin-top: 90px;
+}
+
+.contact p{
+    font-family: 'Montserrat';
+    color: rgb(235, 235, 235);
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.kader-support {
+    width: 100%;
+}
+
+#contact1, #contact3, #contact2, #contact4 {
+    margin-right: 15px;
+}
+
+#contact1 img, #contact3 img, #contact2 img, #contact4 img {
+    float: left;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.contact button{
+    background-color: black;
+    font-family: 'Montserrat';
+    color: rgb(235, 235, 235);
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+.contact button.dark{
+    background-color: white;
+    color: black;
+}
+
+
+
+/*  EINDE SUPPORT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.uitdaging {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to top left, rgba(204, 0, 133,1), rgba(255, 175, 227,0.5)), url(../img/uitdaging@2x.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+h6{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.tekst-uitdaging{
+    font-size: 1em;
+    font-family: 'Montserrat';
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.knop-uitdaging{
+    font-size: 1em;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: rgb(255, 175, 227);
+    width: 200px;
+    background-color: rgb(29, 0, 255);
+    padding: 10px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0px;
+    margin: 50px auto 0 auto;
+    display: block;
+}
+
+/* EINDE MAIN
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+footer {
+    background-color: black;
+    bottom: 0;
+    height: 100px;
+    position: relative;
+}
+
+.switch-logo { 
+    padding-left: 90%;
+    padding-top: 2.5%;
+    position: absolute;
+}
+
+.switch-tekst {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 3%;
+    padding-left: 80%;
+}
+
+.switch-icon1{
+    display: inline-block;
+}
+
+.switch-icon1.dark{
+    display: none;
+}
+
+.switch-icon2{
+    display: none;
+}
+
+.switch-icon2.dark{
+    display: inline-block;
+}
+
+
+/* EINDE FOOTER
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
